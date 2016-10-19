@@ -1,0 +1,36 @@
+@media screen and (min-width: 750px)
+{
+  .stats-links a
+  {
+    float: right;
+    margin-left: 20px;
+
+  }
+}
+
+@media screen and (max-width: 550px)
+{
+  input.search
+  {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px)
+{
+  #albums article img
+  {
+   width: 45%;
+   height: auto;
+   margin:auto;
+  }
+}
+
+
+@media screen and (max-width: 375px)
+{
+  .name p img
+  {
+    display:none;
+  }
+}
